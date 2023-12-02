@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes de Nueva Generación</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2em;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em 2em;
+            margin: 0 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .todo {
+            margin-bottom: 150px;
+        }
+
+        .introduccion {
+            text-align: center;
+        }
+
+        .tecnologias {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+
+        .beneficios {
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+        }
+
+        .casos {
+            display: grid;
+            flex-direction: row;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+        }
+
+        .titulo {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .parrafo {
+            text-align: justify;
+            font-size: 25px;
+        }
+
+        .bloque {
+            width: 60%;
+        }
+
+        .parrafo2 {
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .parrafo3 {
+            text-align: justify;
+        }
+
+        .imagen {
+            border-radius: 1000px;
+        }
+
+        .contenedor_imagen {
+            margin: auto;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <header>
+        <h1>Redes de Nueva Generación</h1>
+        <p>Explora las últimas innovaciones en el mundo de las redes.</p>
+    </header>
+
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#casos">Casos de Éxito</a>
+    </nav>
+
+    <section class="todo">
+
+        <section class="introduccion">
+            <p class=titulo>Introducción</p>
+            <p class=" parrafo">Bienvenido a nuestra plataforma dedicada a las Redes de Nueva Generación, donde la
+                innovación y la conectividad
+                se fusionan para transformar la forma en que experimentamos el mundo digital. En un entorno dinámico y
+                en constante evolución, nos adentramos en el fascinante universo de las tecnologías de red más avanzadas.
+                Desde la rápida expansión de la conectividad 5G hasta las soluciones de vanguardia en el ámbito de la
+                inteligencia artificial y el Internet de las cosas (IoT), exploramos cómo estas redes revolucionarias están dando
+                forma al futuro de la comunicación y abriendo un sinfín de posibilidades para empresas y usuarios por igual.
+                Únete a nosotros en este emocionante viaje hacia un mundo conectado de manera más inteligente, eficiente y
+                potente.</p>
+        </section>
+
+
+        <section class="tecnologias">
+            <div class=bloque>
+                <p class=" titulo">Tecnologías</p>
+                <p class=parrafo2>Explora las tecnologías clave en las redes de nueva generación:</p>
+                <ul class=" parrafo2">
+                    <li><strong>Virtualización de Funciones de Red (NFV):</strong> Ejecuta funciones de red en software,
+                        mejorando la flexibilidad y reduciendo la dependencia del hardware.</li>
+                    <li><strong>Automatización:</strong> Agiliza la implementación y gestión de servicios, mejorando la
+                        eficiencia operativa.</li>
+                    <li><strong>5G:</strong> Proporciona velocidades ultra rápidas y menor latencia, impulsando
+                        aplicaciones como IoT y realidad aumentada.</li>
+                    <li><strong>Inteligencia Artificial (IA):</strong> Optimiza el rendimiento de la red, previene
+                        fallos y mejora la seguridad.</li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="images/colage.jpg" alt="Tecnologías de redes de nueva generación">
+            </div>
+        </section>
+
+        <section class="beneficios">
+            <div class=contenedor_imagen>
+                <img class=imagen src="images/latencia.jpg" alt="Beneficios de redes de nueva generación">
+            </div>
+
+            <div>
+                <p class=" titulo">Beneficios</p>
+                <p class=" parrafo2">Experimenta los beneficios para empresas y usuarios:</p>
+                <ul class="parrafo2">
+                    <li><strong>Mayor Velocidad:</strong> Con 5G, las velocidades son significativamente más rápidas,
+                        permitiendo una experiencia más fluida.</li>
+                    <li><strong>Menor Latencia:</strong> Crucial para aplicaciones sensibles al tiempo como juegos en la
+                        nube y cirugías remotas.</li>
+                    <li><strong>Flexibilidad:</strong> La virtualización permite una configuración más rápida y
+                        flexible, adaptándose a las necesidades cambiantes.</li>
+                    <li><strong>Mayor Eficiencia:</strong> La automatización reduce errores y optimiza recursos,
+                        mejorando la eficiencia operativa.</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="casos">
+            <div>
+                <h2 class = titulo>Casos de Éxito</h2>
+                <p>Explora implementaciones exitosas de redes de nueva generación:</p>
+                <div>
+                    <h3>HUAWEI: Transformación Digital con 5G</h3>
+                    <p class="parrafo3">A la vanguardia de esta revolución tecnológica se encuentra Huawei, una empresa tecnológica
+                        multinacional china. A
+                        pesar de enfrentar numerosos desafíos, incluidas las restricciones comerciales de Estados
+                        Unidos, Huawei ha logrado
+                        mantener su posición como líder global en tecnología 5G.</p>
+                </div>
+                <div>
+                    <h3>La ciudad mas inteligente del mundo actualmente: Londres, Inglaterra</h3>
+                    <p class = "parrafo3">Tiene el doble de proveedores de la industria de la IA que Berlín o París y un tercio de todas
+                        las "empresas
+                        unicornio" de Europa. En 2017, la ciudad puso en marcha un programa para dotar de conectividad
+                        5G a toda la ciudad.
+                        En 2021, la ciudad puso en marcha una iniciativa de conectividad móvil de alta velocidad a
+                        partir de una red de
+                        fibra completa para proporcionar a los hogares y empresas de Londres conexiones a internet más
+                        rápidas.</p>
+                </div>
+            </div>
+
+            <div class = contenedor_imagen>
+
+                <img class = imagen src="images/huawei colage.JPG" alt="Ciudad Inteligente ABC">
+
+            </div>
+        </section>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Redes de Nueva Generación</p>
+        <p>Juan Guillermo Castaño Ruiz</p>
+        <p>Ingenieria de Sistemas UNAD</p>
+    </footer>
+
+</body>
+
+</html>
